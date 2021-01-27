@@ -32,7 +32,7 @@ And then run:
 $ sbcl --load quicklisp.lisp \
        --eval '(quicklisp-quickstart:install)' \
        --eval '(ql::without-prompting (ql:add-to-init-file))' \
-       --eval '(sb-ext:exit)'
+       --eval '(uiop:quit)'
 ```
 
 
